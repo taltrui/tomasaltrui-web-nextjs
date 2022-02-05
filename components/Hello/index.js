@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import { hellos } from "./constants";
 import styles from "./styles.module.scss";
 
 const hellos = ['hOlA', 'hI', 'CiAO', 'hALlO', 'oLÁ', 'SAlUT']
