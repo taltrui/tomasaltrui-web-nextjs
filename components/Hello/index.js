@@ -23,6 +23,7 @@ const Hello = () => {
     <div className={styles.fontContainer}>
       {hellos.map((hello, _index) => (
         <span
+          key={hello}
           className={`${styles.font} ${_index === index && styles.slidein} ${_index === prevIndex.current && styles.slideout
             }`}
         >
