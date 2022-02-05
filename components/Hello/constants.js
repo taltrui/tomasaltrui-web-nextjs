@@ -1,0 +1,1 @@
+export const hellos = ['hOlA', 'hI', 'CiAO', 'hALlO', 'oLÁ', 'SAlUT']

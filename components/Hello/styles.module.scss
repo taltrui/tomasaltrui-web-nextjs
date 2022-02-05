@@ -1,0 +1,51 @@
+.font {
+  position: absolute;
+  opacity: 0;
+}
+
+.fontContainer {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 4.5em;
+  position: relative;
+  height: 1.5em;
+  align-self: flex-start;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.slidein {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    top: -1em;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.slideout {
+  animation-duration: 1.5s;
+  animation-name: slideout;
+}
+
+@keyframes slideout {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+
+  to {
+    top: 1em;
+    opacity: 0;
+  }
+}
