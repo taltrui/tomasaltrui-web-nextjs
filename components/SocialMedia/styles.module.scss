@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  margin-top: 3em;
+}
+
+.icon {
+  margin-right: 2em;
+  height: 52px;
+  border-radius: 100px;
+  display: block;
+  width: 52px;
+  transition: box-shadow 0.25s;
+  &:hover {
+    box-shadow: #eba5f3 0 -1px 4px, #f384ea 0 -2px 10px, #f551f0 0px -5px 20px,
+      #ff24da 0px -8px 40px, 5px 5px 15px 5px rgb(0 0 0 / 0%);
+  }
+}

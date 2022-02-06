@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Hello from "../components/Hello";
+import SocialMedia from "../components/SocialMedia";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
@@ -15,8 +16,10 @@ export default function Home() {
         <div className={styles.name}>Soy Tomás</div>
 
         <p className={styles.desc}>
-          Aún estoy construyendo la página, ¡próximamente más info!
+          Aún estoy construyendo la página, igual podes contactarme en estos lugares:
         </p>
+
+        <SocialMedia />
       </div>
       <footer className={styles.footer}>
         <span>

@@ -14,7 +14,7 @@ const Hello = () => {
           prevIndex.current = index;
           return index === hellos.length - 1 ? 0 : index + 1;
         }),
-      3500
+      4000
     );
 
     return () => clearInterval(interval);

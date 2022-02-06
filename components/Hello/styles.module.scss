@@ -7,8 +7,10 @@
   font-family: 'Major Mono Display', monospace;
   font-size: 4.5em;
   position: relative;
-  height: 1.5em;
+  height: 1.1em;
   align-self: flex-start;
+  overflow: hidden;
+  width: 5em;
 }
 
 .visible {
@@ -16,7 +18,7 @@
 }
 
 .slidein {
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-name: slidein;
   animation-fill-mode: forwards;
 }
@@ -34,7 +36,7 @@
 }
 
 .slideout {
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-name: slideout;
 }
 
